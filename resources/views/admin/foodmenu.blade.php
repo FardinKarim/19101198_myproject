@@ -53,8 +53,8 @@
 <th style='padding:70px'>Price</th>
 <th style='padding:70px'>Description</th>
 <th style='padding:70px'>Image</th>
-<th style='padding:70px'>Action</th>
-<th style='padding:70px'>Action2</th>
+<th style='padding:70px'>Delete</th>
+<th style='padding:70px'>Update</th>
 
 
 

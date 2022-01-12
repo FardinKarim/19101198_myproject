@@ -15,9 +15,10 @@
   @include("admin.admincss")
   </head>
   <body>
+  <div class="container-scroller">     
    @include("admin.navbar") 
         <!-- main-panel ends -->
-   
+</div> 
    @include("admin.adminscript")
   </body>
   </html>

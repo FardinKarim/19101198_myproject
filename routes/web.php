@@ -24,6 +24,13 @@ Route::post("/uploadfood",[AdminController::class, "upload"]) ;
 Route::get("/foodmenu",[AdminController::class, "foodmenu"]) ;
 Route::get("/deleteuser/{id}",[AdminController::class, "deleteuser"]) ;
 Route::get("/redirects",[HomeController::class, "redirects"]);  
+Route::post("/reservation",[AdminController::class, "reservation"]) ;
+Route::post("/uploadchef",[AdminController::class, "uploadchef"]) ;
+Route::get("/viewreservation",[AdminController::class, "viewreservation"]) ;
+Route::get("/viewchef",[AdminController::class, "viewchef"]) ;
+Route::get("/updatechef/{id}",[AdminController::class, "updatechef"]) ;
+Route::post("/updatefoodchef/{id}",[AdminController::class, "updatefoodchef"]) ;
+Route::get("/deletechef/{id}",[AdminController::class, "deletefoodchef"]) ;
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
